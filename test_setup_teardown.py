@@ -6,7 +6,7 @@
 方法级（setup_method/teardown_method ）开始于方法始末（在类中）
 类里面的（setup/teardown）运行在调用方法的前后
 '''
-# ceshissaaaasdasd
+# ceshissaaaasdasd2222
 # 模块级别,只被调用一次
 def setup_module():
     print("资源准备:setup module")
