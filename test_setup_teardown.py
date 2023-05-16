@@ -1,3 +1,4 @@
+
 '''
 模块级（setup_moudle/teardown_moudule ）模块始末，全局的（优先最高）
 函数级（setup_class/teardown_class）只对函数用例生效（不在类中）
@@ -5,6 +6,7 @@
 方法级（setup_method/teardown_method ）开始于方法始末（在类中）
 类里面的（setup/teardown）运行在调用方法的前后
 '''
+# ceshi
 # 模块级别,只被调用一次
 def setup_module():
     print("资源准备:setup module")
