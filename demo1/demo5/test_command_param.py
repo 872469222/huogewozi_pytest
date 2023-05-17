@@ -50,12 +50,12 @@ def test_double_str1():
     assert 'a$a$' == doubule('a$')
 
 
-# if __name__ == '__main__':
-#     #1.运行当前目录下所有的用例
-#     # pytest.main()
-#     #2.运行./目录下所有（test_*py  和 *_test.py）
-#     #pytest.main(['/','-vs'])
-#     #3.运行test_mark1.py::test_dkej模块中的某一条用例
-#     pytest.main(['test_command_param.py','-vs','-m','str'])
-#     #4.运行某个标签
-#     #   pytest.main(['test_mark1.py','-vs','-m','dkej'])
+if __name__ == '__main__':
+    #1.运行当前目录下所有的用例
+    # pytest.main()
+    #2.运行./目录下所有（test_*py  和 *_test.py）
+    #pytest.main(['/','-vs'])
+    #3.运行test_mark1.py::test_dkej模块中的某一条用例
+    pytest.main(['test_command_param.py','-vs','-m','str'])
+    #4.运行某个标签
+    #   pytest.main(['test_mark1.py','-vs','-m','dkej'])
