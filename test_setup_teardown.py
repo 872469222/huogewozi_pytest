@@ -52,3 +52,4 @@ class demo1:
         def setup_class(self):
             print("TestDemo setup_class")
 
+test_case2()
